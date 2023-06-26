@@ -22,7 +22,8 @@ namespace Day2_BasicProgrammingConstruct
                         {
                             SelectionStetment selection = new SelectionStetment();
                            // selection.CheckEqualOrNot();
-                           selection.CheckEvenOrOdd();
+                          // selection.CheckEvenOrOdd();
+                           selection.VotingSystem();
                             break;
                         }
                     default:

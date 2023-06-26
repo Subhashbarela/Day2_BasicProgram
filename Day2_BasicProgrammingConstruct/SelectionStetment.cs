@@ -36,5 +36,18 @@ namespace Day2_BasicProgrammingConstruct
                 Console.WriteLine($"{num} is odd number");
             }
         }
+        public void VotingSystem()
+        {
+            Console.WriteLine("Enter the age to check eligible for vote or not");
+            int age = int.Parse(Console.ReadLine());
+            if (age >= 18)
+            {
+                Console.WriteLine("Candidate is Eligible for vote");
+            }
+            else
+            {
+                Console.WriteLine("Candidate is  not Eligible for vote");
+            }
+        }
     }
 }
