@@ -29,7 +29,8 @@ namespace Day2_BasicProgrammingConstruct
                     case 2:
                         {
                             ElseIfLadderClass ladder=new ElseIfLadderClass();
-                            ladder.LargestNumber();
+                           // ladder.LargestNumber();
+                            ladder.Eligible_For_Admission();
                             break;
                         }
                     default:
