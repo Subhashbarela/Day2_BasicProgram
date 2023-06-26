@@ -45,7 +45,8 @@ namespace Day2_BasicProgrammingConstruct
                             ForLoopStetment forLoop = new ForLoopStetment();
                            // forLoop.Print_Table();
                            // forLoop.Sum_OfSquare();
-                            forLoop.Factorial_Number();
+                           // forLoop.Factorial_Number();
+                            forLoop.Factorial_Taking_Range();
                            
                             break;
                         }
