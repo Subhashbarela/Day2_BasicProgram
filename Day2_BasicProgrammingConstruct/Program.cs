@@ -53,6 +53,7 @@ namespace Day2_BasicProgrammingConstruct
                         {
                             WhileLoopStetment whileLoop = new WhileLoopStetment();
                             whileLoop.FlipCoinGame();
+                            whileLoop.Reverse_World();
                             break;
                         }
                     default:

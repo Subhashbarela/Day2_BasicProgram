@@ -41,5 +41,18 @@ namespace Day2_BasicProgrammingConstruct
                 Console.WriteLine($"Ram's Pt: [{head}] == Sham's Pt: [{tail}] so,Both Player point are same so, Play again");
             }
         }
+        public void Reverse_World()
+        {
+            Console.WriteLine("Enter the String To Revers");
+            string str = Console.ReadLine();
+            int len = str.Length;
+            string rev = "";
+            while (len > 0)
+            {
+                rev += str[len - 1];
+                len--;
+            }
+            Console.WriteLine("Reverse string is : " + rev);
+        }
     }
 }
