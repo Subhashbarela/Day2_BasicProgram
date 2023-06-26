@@ -13,7 +13,7 @@ namespace Day2_BasicProgrammingConstruct
             string ans = "";
             do
             {
-                Console.WriteLine("1: Selection Stetment ");
+                Console.WriteLine("1: Selection Stetment \n2: Else If Ladder Statement ");
                 Console.WriteLine("Enter the choice");
                 int choice = int.Parse(Console.ReadLine());
                 switch (choice)
@@ -24,6 +24,12 @@ namespace Day2_BasicProgrammingConstruct
                            // selection.CheckEqualOrNot();
                           // selection.CheckEvenOrOdd();
                            selection.VotingSystem();
+                            break;
+                        }
+                    case 2:
+                        {
+                            ElseIfLadderClass ladder=new ElseIfLadderClass();
+                            ladder.LargestNumber();
                             break;
                         }
                     default:
