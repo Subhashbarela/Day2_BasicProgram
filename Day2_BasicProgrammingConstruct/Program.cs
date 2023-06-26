@@ -13,7 +13,7 @@ namespace Day2_BasicProgrammingConstruct
             string ans = "";
             do
             {
-                Console.WriteLine("1: Selection Stetment \n2: Else If Ladder Statement \n3: Switch case Stetment \n4: for loop Stetment ");
+                Console.WriteLine("1: Selection Stetment \n2: Else If Ladder Statement \n3: Switch case Stetment \n4: for loop Stetment \n5: While Loop Stetment");
                 Console.WriteLine("Enter the choice");
                 int choice = int.Parse(Console.ReadLine());
                 switch (choice)
@@ -46,8 +46,13 @@ namespace Day2_BasicProgrammingConstruct
                            // forLoop.Print_Table();
                            // forLoop.Sum_OfSquare();
                            // forLoop.Factorial_Number();
-                            forLoop.Factorial_Taking_Range();
-                           
+                            forLoop.Factorial_Taking_Range();                                                                                
+                            break;
+                        }
+                    case 5:
+                        {
+                            WhileLoopStetment whileLoop = new WhileLoopStetment();
+                            whileLoop.FlipCoinGame();
                             break;
                         }
                     default:
