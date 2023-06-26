@@ -36,7 +36,8 @@ namespace Day2_BasicProgrammingConstruct
                     case 3:
                         {
                             SwitchCaseStetment switchCase =new SwitchCaseStetment();
-                            switchCase.WeekDay();
+                           // switchCase.WeekDay();
+                            switchCase.Arithmatic_Operation();
                             break;
                         }
                     default:

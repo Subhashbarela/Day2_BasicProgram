@@ -40,5 +40,45 @@ namespace Day2_BasicProgrammingConstruct
                     break;
             }
         }
+        public void Arithmatic_Operation()
+        {
+            Console.WriteLine("Enter the num one");
+            int numOne = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter the num two");
+            int numTwo = int.Parse(Console.ReadLine());
+            Console.WriteLine("1: Addition \n2: Substraction \n3: Multiplication \n4 Division");
+            Console.WriteLine("insert the choice");
+            int choice = int.Parse(Console.ReadLine());
+            switch (choice)
+            {
+                case 1:
+                    {
+                        int result = numOne + numTwo;
+                        Console.WriteLine("Addition of two nmber is: " + result);
+                        break;
+                    }
+                case 2:
+                    {
+                        int result = numOne - numTwo;
+                        Console.WriteLine("Substraction of two nmber is: " + result);
+                        break;
+                    }
+                case 3:
+                    {
+                        int result = numOne * numTwo;
+                        Console.WriteLine("Multiplication of two nmber is: " + result);
+                        break;
+                    }
+                case 4:
+                    {
+                        int result = numOne / numTwo;
+                        Console.WriteLine("Division of two nmber is: " + result);
+                        break;
+                    }
+                default:
+                    Console.WriteLine("Enter valid input");
+                    break;
+            }
+        }
     }
 }
