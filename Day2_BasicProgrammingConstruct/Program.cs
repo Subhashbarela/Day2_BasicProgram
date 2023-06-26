@@ -13,7 +13,7 @@ namespace Day2_BasicProgrammingConstruct
             string ans = "";
             do
             {
-                Console.WriteLine("1: Selection Stetment \n2: Else If Ladder Statement \n3: Switch case Stetment ");
+                Console.WriteLine("1: Selection Stetment \n2: Else If Ladder Statement \n3: Switch case Stetment \n4: for loop Stetment ");
                 Console.WriteLine("Enter the choice");
                 int choice = int.Parse(Console.ReadLine());
                 switch (choice)
@@ -38,6 +38,13 @@ namespace Day2_BasicProgrammingConstruct
                             SwitchCaseStetment switchCase =new SwitchCaseStetment();
                            // switchCase.WeekDay();
                             switchCase.Arithmatic_Operation();
+                            break;
+                        }
+                    case 4:
+                        {
+                            ForLoopStetment forLoop = new ForLoopStetment();
+                            forLoop.Print_Table();
+                           
                             break;
                         }
                     default:
