@@ -51,5 +51,20 @@ namespace Day2_BasicProgrammingConstruct
             }
             Console.WriteLine($"Factorial of {num} is : " + fact);
         }
+        public void Factorial_Taking_Range()
+        {
+            Console.WriteLine("Insert the number to find factorial");
+            int num = int.Parse(Console.ReadLine());
+            int fact = 1;
+            for (int i = 2; i <= num; i++)
+            {
+                fact = 1;
+                for (int j = 1; j <= i; j++)
+                {
+                    fact *= j;
+                }
+                Console.WriteLine($"Factorial of {i} is : " + fact);
+            }
+        }
     }
 }
