@@ -25,5 +25,20 @@ namespace Day2_BasicProgrammingConstruct
 
             }
         }
+        public void Sum_OfSquare()
+        {
+            Console.WriteLine("Enter the number to find sum of square");
+            int num = int.Parse(Console.ReadLine());
+            int square = 0;
+            int sumOdSq = 0;
+            Console.Write("Square of : ");
+            for (int i = 1; i < num; i++)
+            {
+                square = i * i;
+                Console.Write(square + " ");
+                sumOdSq += square;
+            }
+            Console.WriteLine("\nSum of Squre is : " + sumOdSq);
+        }
     }
 }

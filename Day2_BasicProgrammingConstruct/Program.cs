@@ -43,7 +43,8 @@ namespace Day2_BasicProgrammingConstruct
                     case 4:
                         {
                             ForLoopStetment forLoop = new ForLoopStetment();
-                            forLoop.Print_Table();
+                           // forLoop.Print_Table();
+                            forLoop.Sum_OfSquare();
                            
                             break;
                         }
@@ -51,7 +52,7 @@ namespace Day2_BasicProgrammingConstruct
                         Console.WriteLine("Please insert valid input");
                         break;
                 }
-                Console.WriteLine("Do you want to continue ..?");
+                Console.WriteLine("\nDo you want to continue ..?");
                 ans = Console.ReadLine();
             } while (ans == "yes" || ans == "y");
             Console.ReadLine();
