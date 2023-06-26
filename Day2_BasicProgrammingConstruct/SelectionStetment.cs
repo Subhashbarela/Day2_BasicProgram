@@ -23,5 +23,18 @@ namespace Day2_BasicProgrammingConstruct
                 Console.WriteLine("both number  are not equal");
             }
         }
+        public void CheckEvenOrOdd()
+        {
+            Console.WriteLine("Enter the number to check even or odd");
+            int num = int.Parse(Console.ReadLine());
+            if (num % 2 == 0)
+            {
+                Console.WriteLine($"{num} is even number");
+            }
+            else
+            {
+                Console.WriteLine($"{num} is odd number");
+            }
+        }
     }
 }

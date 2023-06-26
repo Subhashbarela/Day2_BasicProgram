@@ -21,8 +21,8 @@ namespace Day2_BasicProgrammingConstruct
                     case 1:
                         {
                             SelectionStetment selection = new SelectionStetment();
-                            selection.CheckEqualOrNot();
-
+                           // selection.CheckEqualOrNot();
+                           selection.CheckEvenOrOdd();
                             break;
                         }
                     default:
