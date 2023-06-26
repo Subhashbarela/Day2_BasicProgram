@@ -52,8 +52,9 @@ namespace Day2_BasicProgrammingConstruct
                     case 5:
                         {
                             WhileLoopStetment whileLoop = new WhileLoopStetment();
-                            whileLoop.FlipCoinGame();
-                            whileLoop.Reverse_World();
+                           // whileLoop.FlipCoinGame();
+                           // whileLoop.Reverse_World();
+                            whileLoop.Sum_Of_Natural_Number();
                             break;
                         }
                     default:
